@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/montserrat-bold.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../fonts/avenir-next-cyr-light.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../fonts/avenirn-next-cyr-regular.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/avenir-next-cyr-bold.woff");
+}
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header-statistic {
+    margin-bottom: 290px;
+}
+
+.statistic {
+    max-width: 470px;
+    width: 100%;
+    background-image: linear-gradient(63.53deg, #2D8550 16.62%, #5E6EC2 83.38%);
+    opacity: 0.7;
+}
+
+.menu-content-statistic {
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 0;
+}
+
+.link-menu {
+    margin-right: 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.link-menu-last {
+    margin: 0;
+}
+
+.photo-menu {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-retry {
+    border-radius: 50%;
+}
+
+.parameters {
+    margin: 0 auto 190px auto;
+    padding-left: 40px;
+}
+
+.title-parameters {
+    font-family: "Avenir Next Cyr Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin: 0 0 30px 0;
+}
+
+.first-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.block-mood {
+    font-family: "Avenir Next Cyr Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 190px;
+    width: 100%;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    font-size: 48px;
+    line-height: 59px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 115px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.number {
+    margin: 0;
+}
+
+.sad {
+    margin-right: 20px;
+}
+
+.love::before,
+.smile::before,
+.sad::before {
+    content: url("../image/sad.svg");
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+.smile::before {
+    content: url("../image/smile.svg");
+}
+
+.love::before {
+    content: url("../image/love.svg");
+    top: 16px;
+}
+
+.love {
+    margin: 0 auto;
+}
+
+.block-footer-statistic {
+    font-family: "Avenir Next Cyr Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url("../image/bg-footer.svg");
+}
+
+.title-footer-statistic {
+    margin: 0;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.people-numbers {
+    margin: 0;
+}
+
+.span {
+    font-weight: 700;
+}
+
+.block-content-grand {
+    max-width: 970px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 140px;
+    padding-bottom: 64px;
+}
+
+.content-grandma {
+    background-color: #FFFFFF;
+    max-width: 540px;
+    width: 100%;
+    border-radius: 40px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 40px rgba(127, 127, 127, 0.4);
+    box-shadow: 0 0 40px rgba(127, 127, 127, 0.4);
+}
+
+.photo-grandma {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 39px 39px 0 0;
+}
+
+.block-info-grandma {
+    max-width: 420px;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.main-grandma {
+    margin-bottom: 140px;
+}
+
+.title-info-grandma {
+    font-family: "Avenir Next Cyr Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    font-size: 32px;
+    line-height: 39px;
+    color: #8E9AD5;
+}
+
+.text-info-grandma {
+    font-family: "Avenir Next Cyr Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.button-footer-content {
+    font-family: "Avenir Next Cyr Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 280px;
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.medicine-one {
+    background-image: linear-gradient(266.19deg, #8049C7 0%, #CA57FD 100%);
+}
+
+.medicine-two {
+    background-image: linear-gradient(266.19deg, #169AE4 0%, #0CC4FA 100%);
+}
+
+.medicine-three {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.02%, #FFD748), color-stop(99.97%, rgba(195, 199, 11, 0.96)), color-stop(99.98%, #CAC6AB), color-stop(99.99%, #D3E9E1));
+    background-image: linear-gradient(90deg, #FFD748 0.02%, rgba(195, 199, 11, 0.96) 99.97%, #CAC6AB 99.98%, #D3E9E1 99.99%);
+}
+
+/*# sourceMappingURL=styles.css.map */

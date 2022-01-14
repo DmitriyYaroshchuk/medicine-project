@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/montserrat-bold.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../fonts/avenir-next-cyr-light.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../fonts/avenirn-next-cyr-regular.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/avenir-next-cyr-bold.woff");
+}
+@import "gradients";
+@import "colors";
+@import "fonts";
+@mixin font ($ff,$fst,$fw) {
+    font: {
+        family: $ff;
+        style: $fst;
+        weight: $fw;
+    }
+}
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.header-statistic {
+    margin-bottom: 290px;
+}
+.statistic {
+    max-width: 470px;
+    width: 100%;
+    background-image: $main-gradient;
+    opacity: 0.7;
+    position: relative;
+    z-index: 1;
+
+}
+.menu-content-statistic {
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 0;
+}
+.link-menu {
+    margin-right: 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+.link-menu-last {
+    margin: 0;
+}
+.photo-menu {
+    max-width: 100%;
+    height: auto;
+}
+.photo-retry {
+    border-radius: 50%;
+}
+.parameters {
+    margin: 0 auto 190px auto;
+    padding-left: 40px;
+}
+.title-parameters {
+    @include font($fontBold,normal,700);
+    font-size: 36px;
+    line-height: 44px;
+    color: $white;
+    margin: 0 0 30px 0;
+}
+.first-line {
+    display: flex;
+    margin-bottom: 40px;
+}
+.block-mood {
+    @include font($fontBold,normal,700);
+    max-width: 190px;
+    width: 100%;
+    border-radius: 40px;
+    background-color: $white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 115px;
+    box-sizing: border-box;
+    position: relative;
+}
+.number {
+    font-size: 48px;
+    line-height: 59px;
+    margin: 0;
+}
+.sad {
+    margin-right: 20px;
+}
+.love::before,
+.smile::before,
+.sad::before {
+    content: url("../image/sad.svg");
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.smile::before {
+    content: url("../image/smile.svg");
+}
+.love::before {
+    content:  url("../image/love.svg");
+    top: 16px;
+}
+.love {
+    margin: 0 auto;
+}
+.block-footer-statistic {
+    @include font($fontLight,normal,300);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin: 0 auto;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: $white;
+    background-image: url("../image/bg-footer.svg");
+}
+.title-footer-statistic {
+    margin: 0;
+    font-weight: 300;
+    font-size: 36px;
+}
+.people-numbers {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+}
+.span {
+    font-weight: 700;
+}
+.block-content-grand {
+    max-width: 970px;
+    width: 100%;
+    background-color: $white;
+    padding-top: 40px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.content-grandma {
+    background-color: $white;
+    max-width: 540px;
+    width: 100%;
+    border-radius: 40px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px rgba(127, 127, 127, 0.4);
+    transform: rotate(15deg);
+    position: absolute;
+    top: 90px;
+    right: -26%;
+}
+.extra {
+    overflow: hidden;
+    position: relative;
+    min-height: 730px;
+}
+.photo-grandma {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 39px 39px 0 0;
+}
+.block-preparation {
+    @include font($fontBold,normal,700);
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+    top: 283px;
+    left: 76px;
+    font-size: 52px;
+    line-height: 51px;
+    border: 8px solid #FFCA01;
+    transform: rotate(20deg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.text-preparation {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: $dark-yellow;
+    margin: 0;
+}
+.block-info-grandma {
+    max-width: 420px;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+.main-grandma {
+    margin-bottom: 97px;
+    position: relative;
+    flex-grow: 1;
+}
+.title-info-grandma {
+    @include font($fontBold,normal,700);
+    margin: 0 0 10px 0;
+    font-size: 32px;
+    line-height: 39px;
+    color: $not-so-dark;
+}
+.text-info-grandma {
+    @include font($fontLight,normal,300);
+    margin: 0;
+    font-size: 24px;
+    line-height: 29px;
+    color: $black;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.button-footer-content {
+    @include font($fontBold,normal,700);
+    max-width: 280px;
+    width: 100%;
+    font-size: 28px;
+    line-height: 34px;
+    color: $white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.medicine-one {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-image: $cheap-gradient;
+}
+.medicine-two {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-image: $brand-gradient;
+}
+.medicine-three {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-image: $gradient;
+}
