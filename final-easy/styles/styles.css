@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Montserrat Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/montserrat-bold.woff");
+}
+@font-face {
+  font-family: 'Avenir Next Cyr Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../fonts/avenir-next-cyr-light.woff");
+}
+@font-face {
+  font-family: 'Avenir Next Cyr Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/avenirn-next-cyr-regular.woff");
+}
+@font-face {
+  font-family: 'Avenir Next Cyr Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/avenir-next-cyr-bold.woff");
+}
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("../image/people.jpg");
+  background-repeat: no-repeat;
+  background-position: 729px 0;
+}
+
+.header {
+  margin-bottom: 120px;
+}
+
+.content-head {
+  background-color: #FFFFFF;
+  padding-top: 70px;
+  padding-left: 50px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.main {
+  margin-bottom: 250px;
+}
+
+.content-main {
+  padding-left: 130px;
+  background-color: #FFFFFF;
+  max-width: 580px;
+  width: 100%;
+}
+
+.block-preparation {
+  max-width: 580px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #D9D9D9;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+.column {
+  max-width: 180px;
+  width: 100%;
+  text-align: center;
+}
+
+.title-column {
+  font-family: "Avenir Next Cyr Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #424242;
+  margin: 0 0 20px;
+}
+
+.text-column {
+  font-family: "Avenir Next Cyr Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #424242;
+  margin: 0;
+}
+
+.block-result {
+  max-width: 580px;
+  width: 100%;
+  text-align: left;
+}
+
+.title-result {
+  font-family: "Avenir Next Cyr Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  color: #8E9AD5;
+  margin: 0 0 25px 0;
+}
+
+.strong-result {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.text-result {
+  font-family: "Avenir Next Cyr Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  font-size: 24px;
+  line-height: 29px;
+  color: #424242;
+}
+
+.content-footer {
+  background-color: #FFFFFF;
+  padding-left: 130px;
+  padding-bottom: 84px;
+}
+
+.button-footer {
+  font-family: "Avenir Next Cyr Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  max-width: 270px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#D9D9D9), to(#A1A1A1));
+  background-image: linear-gradient(90deg, #D9D9D9 0%, #A1A1A1 100%);
+  border-radius: 100px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/montserrat-bold.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../fonts/avenir-next-cyr-light.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../fonts/avenirn-next-cyr-regular.woff");
+}
+@font-face {
+    font-family: 'Avenir Next Cyr Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/avenir-next-cyr-bold.woff");
+}
+.wrapper {
+    max-width: 3700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-header {
+    background-color: white;
+    padding-top: 170px;
+    padding-left: 170px;
+    padding-bottom: 130px;
+    text-align: left;
+}
+
+.title-header {
+    font-family: "Avenir Next Cyr Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    margin: 0 0 15px 0;
+}
+
+.list {
+    list-style-type: none;
+    max-width: 2472px;
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+}
+
+.text {
+    margin: 0 0 10px;
+    font-family: "Avenir Next Cyr Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.last-text {
+    margin: 0;
+}
+
+.block-people {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+}
+
+.content-people {
+    max-width: 540px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 40px rgba(127, 127, 127, 0.4);
+    box-shadow: 0 0 40px rgba(127, 127, 127, 0.4);
+    border-radius: 40px;
+    padding-bottom: 30px;
+}
+
+.photo-people {
+    max-width: 100%;
+    height: auto;
+    border-radius: 37px 37px 0 0;
+    margin-bottom: 15px;
+}
+
+.info-people {
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title-people {
+    font-family: "Avenir Next Cyr Bold", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #8E9AD5;
+    margin: 0 0 15px 0;
+}
+
+.text-people {
+    font-family: "Avenir Next Cyr Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
